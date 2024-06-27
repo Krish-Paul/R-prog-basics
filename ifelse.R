@@ -20,4 +20,18 @@ if("gh" %in% y) # this is how you search in vector. syntax --> element %in% vect
 
 
 # if /else if/else
+marks=75
+if (marks>=75)
+{
+  print("grade A")
+}else if (marks>=60)
+{
+  print("grade B")
+}else if (marks>=40)
+{
+  print("grade C")
+}else
+{
+  print("grade F")
+}
 
